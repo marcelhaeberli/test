@@ -9,6 +9,18 @@ Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröff
 [Für Erst-Publizierende](#Für-Erst-Publizierende)
 
 ### Übersicht
+Die I14Y Interoperabilitätsplattform ist ein zentrales Verzeichnis, das die Metadaten der dokumentierten Datensätze öffentlich zugänglich macht.
+Metadaten sind wichtig, um den Kontext der Daten zu verstehen. Beschreibung, Struktur, Qualität, Standard und Verwendung der Daten sind zentral abgelegt. Angesichts der immer grösseren Datenmengen müssen sich öffentliche Verwaltungen und Unternehmen anpassen und neue Instrumente verwenden, um den digitalen Wandel voranzutreiben.
+Über die I14Y Interoperabilitätsplattform können alle Nutzenden auf die verfügbaren Datenquellen zugreifen (frei oder mit entsprechendem Zugriffsrecht). Sie erleichtert es zudem, bereits erfasste Informationen zu erkennen und diese mehrfach zu verwenden (Once-Only-Prinzip). Die Schaffung neuer Dienste sowie die Durchführung neuer Datenanalysen werden somit unterstützt.
+
+Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen folgende Funktionen:
+
+* Suchmaschine
+* Metadatenregister
+* Beschreibung Daten anhand von Metadaten
+* Fachglossar
+* 
+Die I14Y Interoperabilitätsplattform verwendet den Standard DCAT-AP.
 
 ## Publikationsprozess
 
@@ -27,10 +39,13 @@ Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröff
 | Klassenname | Bemerkung | URI und Referenz | 
 |-------|------|---------------------------------------------------------------------|
 | Katalog | Ein Katalog oder Repository, in dem die beschriebenen Datensätze oder Datendienste gespeichert sind. | [Katalog](#Katalog) |
-| support | Double | Party strength in fraction of 1  (e.g. 0.2 = 20%) |
-| municipality | Numeric | BFS ID of municipality in question |
-| canton | Numeric | Cantonal abbreviation (two letters) |
-| party | Numeric | Party or party grouping, referencing ID in `output/parties.csv` |
+| Dataset | Eine konzeptionelle Einheit, die die veröffentlichten Informationen darstellt. | [Dataset](#Dataset)|
+| Distribution | A physical embodiment of the Dataset in a particular format. | [Distribution](#Distribution) |
+| Data Service | Eine Sammlung von Vorgängen, die den Zugriff auf einen oder mehrere Datensätze oder Datenverarbeitungsfunktionen ermöglicht. | [Data Service](#Data-Service) |
+
+| Klassenname | Bemerkung | URI und Referenz | 
+|-------|------|---------------------------------------------------------------------|
+| Public Service | TBD | [Public Service](#Public-Service) |
 
 #### Katalog
 
