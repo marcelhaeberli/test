@@ -7,19 +7,15 @@
     - [Für Erst-Publizierende](#Für-Erst-Publizierende)
     - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
 3. [DCAT-AP-CH](#DCAT-AP-CH)
-    - [Für Erst-Publizierende](#Für-Erst-Publizierende)
-    - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
-
-### Für Erst-Publizierende
-
-### Publikationsprozess verstehen
-
-### Publikationsvariante auswählen
-
-## DCAT-AP-CH
-### DCAT als universelles Vokabular
-
-### Klassen
+    - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
+    - [Klassen](#Klassen)
+4. [FAQ](#FAQ)
+    - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
+    - [Klassen](#Klassen)
+5. [Glossar](#Glossar)
+6. [Über das Handbuch](#Über-das-Handbuch)
+    - [Kontakt](#Kontakt)
+    - [Rechtliche Hinweise](#Rechtliche-Hinweise)
 
 ## About
 
