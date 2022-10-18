@@ -7,14 +7,18 @@
     - [Für Erst-Publizierende](#Für-Erst-Publizierende)
     - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
     - [Publikationsvariante auswählen](#Publikationsvariante-auswählen)
-3. [DCAT-AP-CH](#DCAT-AP-CH)
+3. [Pflegen](#Pflegen)
+    - [Daten Updaten](#Daten-Updaten)
+    - [Auskunft zu Daten geben](#Auskunft-zu-Daten-geben)
+    - [Support und Feedback](#Support-und-Feedback)
+4. [DCAT-AP-CH](#DCAT-AP-CH)
     - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
     - [Klassen](#Klassen)
-4. [FAQ](#FAQ)
+5. [FAQ](#FAQ)
     - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
     - [Klassen](#Klassen)
-5. [Glossar](#Glossar)
-6. [Über das Handbuch](#Über-das-Handbuch)
+6. [Glossar](#Glossar)
+7. [Über das Handbuch](#Über-das-Handbuch)
     - [Kontakt](#Kontakt)
     - [Rechtliche Hinweise](#Rechtliche-Hinweise)
 
@@ -75,11 +79,63 @@ Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können 
 
 ### Für Erst-Publizierende
 
-Es freut uns, dass Sie Ihre Daten auf opendata.swiss publizieren wollen! Jeder Eintrag auf opendata.swiss «Dataset» sowie sämtliche Benutzerinnen und Benutzer sind einer Organisation zugeteilt. Sollten Sie noch keine Daten auf opendata.swiss publiziert haben, ist deshalb der erste Schritt, die Registrierung der Organisation und der Benutzerinnen und Benutzer. Nach erfolgter Registrierung können Sie über das Backend die Angaben zur Organisation vervollständigen und mit der Publikation der Datasets loslegen.
+Es freut uns, dass Sie Ihre Daten auf I14Y publizieren wollen! Jeder Eintrag auf I14Y «Dataset», «Dataservice» oder «Public Service» sowie sämtliche Benutzerinnen und Benutzer sind einer Organisation zugeteilt. Sollten Sie noch keine Daten auf I14Y publiziert haben, ist deshalb der erste Schritt, die Registrierung der Organisation und der Benutzerinnen und Benutzer auf eIAM. Nach erfolgter Registrierung können Sie über das Backend die Angaben zur Organisation vervollständigen und mit der Publikation der Datasets loslegen.
+
+* TBD: Anleitung [eIAM](https://www.eiam.admin.ch/index.php?c=f!chlfaq!pub&l=de) 
 
 ### Publikationsprozess verstehen
 
+Der Publikationsprozess besteht aus 4 Schritten. Wichtig zu wissen: Wenn Sie zum ersten Mal Daten publizieren, veröffentlichen Sie diese immer zuerst auf einer nicht-öffentlichen Umgebung, die für Test-Publikationen gedacht ist. Wir sprechen auch von «Abnahmeumgebung». Erst nach der finalen Freigabe werden die Datasets öffentlich auf opendata.swiss publiziert, auf der sogenannten «Produktionsumgebung». Wenn Sie Daten bereits zum wiederholten Male publizieren, können Sie dies direkt in der Produktionsumgebung tun.
+
+#### Daten publizieren – So funktioniert’s:
+**1. Schritt: [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen**
+
+Es gibt vier verschiedene Publikationsvarianten, die Ihnen zur Verfügung stehen:
+
+* Dataset manuell via Webformular erfassen
+
+* Datenkatalog als XML importieren
+
+* Datenkatalog via Harvester erfassen
+
+* Geodaten via geocat.ch erfassen (Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)
+
+Gemeinsam mit der Geschäftsstelle I14Y identifizieren Sie, welche Publikationsvariante sich eignet, um einerseits Ihren Aufwand bei der Publikation zu minimieren und andererseits eine hohe Qualität der publizierten Einträge zu gewährleisten.
+
+**2. Schritt: Metadaten Import durchführen**
+
+Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert, um diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten Daten wiederverwendet werden können. Dieser Schritt wird je nach gewählter Methode unterschiedlich durchgeführt. Wenn Sie Ihren Datenkatalog als XML oder via Harvester importieren, müssen Ihre Datasets als XML-Datei im Format DCAT-AP-CH entweder direkt hochgeladen (XML Import) oder via URL (Harvester) an uns übergeben werden. Beim manuellen Erfassen sind die Felder im Backend von opendata.swiss direkt via Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel Publikationsvariante auswählen.
+
+**3. Schritt: Prüfung der Daten**
+
+Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualitätssicherung. Bei der Erstpublikation stellen wir gemeinsam sicher, dass alle Daten, Metadaten und Beschreibungen in der Abnahmeumgebung korrekt erfasst und dargestellt werden. Kontaktieren Sie uns, um die Prüfung der Daten zu planen. Durchschnittlich benötigen wir 5 Werktage, um die Daten und Metadaten zu prüfen.
+
+**4. Schritt: Freigabe und Veröffentlichung**
+
+Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf opendata.swiss am gemeinsam definierten Go-Live Datum veröffentlicht. Dies gilt grundsätzlich nur bei der Erstpublikation. Bei wiederholten Publikationen können Sie die Veröffentlichung selbst vornehmen bzw. für ein spezifisches Datum terminieren. Benötigen Sie Unterstützung bei einer wiederholten Publikation, können Sie uns selbstverständlich jederzeit kontaktieren.
+
 ### Publikationsvariante auswählen
+
+Um eine geeignete Publikationsvariante auszuwählen, kommt es auf die Art der Daten, den Umfang und das Aktualisierungsintervall an. Grundsätzlich sind Sie in Ihrer Wahl frei, allerdings bieten sich bei bestimmten Merkmalen bestimmte Varianten besser an. Die richtige Publikationsvariante wird gemeinsam mit uns, der Geschäftsstelle I14Y, definiert – sprechen Sie mit uns darüber. Hier finden Sie einige Richtwerte, die Ihnen bei der Wahl der Publikationsvariante helfen:
+
+**Wenig Daten, seltene Aktualisierung:**
+    - Metadaten manuell via Webformular erfassen
+
+**Mehr als 10 Datasets, regelmässige Aktualisierung:**
+    - Metadaten als XML-Datei importieren
+
+**Grosse Anzahl Datasets, häufige Aktualisierung:**
+    - Metadaten mit Harvester automatisch hochladen
+**Geodaten**
+    - Geodaten sind ein Spezialfall. Um Geodaten publizieren zu können, müssen die Metadaten im Schweizer Geometadaten-Katalog geocat.ch erfasst sein. Metadaten via geocat.ch publizieren
+
+## Pflegen
+
+### Daten-Updaten
+
+### Auskunft zu Daten geben
+
+### Support und Feedback
 
 ## DCAT-AP-CH
 
