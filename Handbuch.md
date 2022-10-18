@@ -4,23 +4,23 @@
 
 1. [About](#About)
 2. [Publikationsprozess](#Publikationsprozess)
-    - [Für Erst-Publizierende](#Für-Erst-Publizierende)
-    - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
-    - [Publikationsvariante auswählen](#Publikationsvariante-auswählen)
+    * [Für Erst-Publizierende](#Für-Erst-Publizierende)
+    * [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
+    * [Publikationsvariante auswählen](#Publikationsvariante-auswählen)
 3. [Pflegen](#Pflegen)
-    - [Daten Updaten](#Daten-Updaten)
-    - [Auskunft zu Daten geben](#Auskunft-zu-Daten-geben)
-    - [Support und Feedback](#Support-und-Feedback)
+    * [Daten Updaten](#Daten-Updaten)
+    * [Auskunft zu Daten geben](#Auskunft-zu-Daten-geben)
+    * [Support und Feedback](#Support-und-Feedback)
 4. [DCAT-AP-CH](#DCAT-AP-CH)
-    - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
-    - [Klassen](#Klassen)
+    * [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
+    * [Klassen](#Klassen)
 5. [FAQ](#FAQ)
-    - [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
-    - [Klassen](#Klassen)
+    * [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
+    * [Klassen](#Klassen)
 6. [Glossar](#Glossar)
 7. [Über das Handbuch](#Über-das-Handbuch)
-    - [Kontakt](#Kontakt)
-    - [Rechtliche Hinweise](#Rechtliche-Hinweise)
+    * [Kontakt](#Kontakt)
+    * [Rechtliche Hinweise](#Rechtliche-Hinweise)
 
 ## About
 
@@ -51,9 +51,9 @@ TBD: Welche Richtlinien gibt es?
 
 In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren. Folgende Punkte müssen Sie dabei beachten:
 
-<img width="551" alt="Übersicht" src="https://user-images.githubusercontent.com/115873530/196399836-3fd80e95-3ce8-4030-a88b-e2ce99c71a9f.PNG">
+<img width="702" alt="Übersicht_Public" src="https://user-images.githubusercontent.com/115873530/196473444-ff198937-bde8-495f-9b11-7378f9794f41.PNG">
 
-* Ï14Y ist ein Metadatenkatalog. Hier wird auf publizierte Open Government Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert. Somit steigert sich ihre Sichtbarkeit.
+* Ï14Y ist ein Metadatenkatalog. Hier wird auf Open Government Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert. Somit steigert sich ihre Sichtbarkeit.
 
 * Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «OGD-Richtlinien».
 
@@ -61,7 +61,7 @@ In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren.
 
 * Das User-Management wird zentral von eIAM sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen werden darin erfasst.
 
-Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Publikationsprozess starten.
+Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
 
 Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
 
@@ -79,30 +79,33 @@ Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können 
 
 ### Für Erst-Publizierende
 
-Es freut uns, dass Sie Ihre Daten auf I14Y publizieren wollen! Jeder Eintrag auf I14Y «Dataset», «Dataservice» oder «Public Service» sowie sämtliche Benutzerinnen und Benutzer sind einer Organisation zugeteilt. Sollten Sie noch keine Daten auf I14Y publiziert haben, ist deshalb der erste Schritt, die Registrierung der Organisation und der Benutzerinnen und Benutzer auf eIAM. Nach erfolgter Registrierung können Sie über das Backend die Angaben zur Organisation vervollständigen und mit der Publikation der Datasets loslegen.
+Es freut uns, dass Sie Ihre Daten auf I14Y publizieren wollen! Jeder Eintrag auf I14Y «Dataset», «Dataservice» oder «Public Service» sowie sämtliche Benutzerinnen und Benutzer sind einer Organisation zugeteilt. Sollten Sie noch keine Daten auf I14Y publiziert haben, ist deshalb der erste Schritt, die Registrierung der Organisation und der Benutzerinnen und Benutzer auf eIAM. Nach erfolgter Registrierung können Sie  die Angaben zur Organisation vervollständigen und mit der Publikation der Datasets loslegen.
 
 * TBD: Anleitung [eIAM](https://www.eiam.admin.ch/index.php?c=f!chlfaq!pub&l=de) 
 
 ### Publikationsprozess verstehen
 
+Bevor Sie etwas publizieren können müssen Sie sich auf eIAM registriert haben. Nur mit diesem Login gelangen Sie zum Input-Bereich auf I14Y, auf welchem Sie Metadatden erfassen und publizieren können.
+
 Der Publikationsprozess besteht aus 4 Schritten. Wichtig zu wissen: Wenn Sie zum ersten Mal Daten publizieren, veröffentlichen Sie diese immer zuerst auf einer nicht-öffentlichen Umgebung, die für Test-Publikationen gedacht ist. Wir sprechen auch von «Abnahmeumgebung». Erst nach der finalen Freigabe werden die Datasets öffentlich auf opendata.swiss publiziert, auf der sogenannten «Produktionsumgebung». Wenn Sie Daten bereits zum wiederholten Male publizieren, können Sie dies direkt in der Produktionsumgebung tun.
 
 #### Daten publizieren – So funktioniert’s:
+
 **1. Schritt: [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen**
 
 Es gibt vier verschiedene Publikationsvarianten, die Ihnen zur Verfügung stehen:
 
 * Dataset manuell via Webformular erfassen
 
-* Datenkatalog als XML importieren
+* Data Service via Webformular erfassen
 
-* Datenkatalog via Harvester erfassen
+* Publice Service via Webformular erfassen
 
 * Geodaten via geocat.ch erfassen (Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)
 
 Gemeinsam mit der Geschäftsstelle I14Y identifizieren Sie, welche Publikationsvariante sich eignet, um einerseits Ihren Aufwand bei der Publikation zu minimieren und andererseits eine hohe Qualität der publizierten Einträge zu gewährleisten.
 
-**2. Schritt: Metadaten Import durchführen**
+**2. Schritt: Metadaten auf I14Y erfassen**
 
 Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert, um diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten Daten wiederverwendet werden können. Dieser Schritt wird je nach gewählter Methode unterschiedlich durchgeführt. Wenn Sie Ihren Datenkatalog als XML oder via Harvester importieren, müssen Ihre Datasets als XML-Datei im Format DCAT-AP-CH entweder direkt hochgeladen (XML Import) oder via URL (Harvester) an uns übergeben werden. Beim manuellen Erfassen sind die Felder im Backend von opendata.swiss direkt via Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel Publikationsvariante auswählen.
 
