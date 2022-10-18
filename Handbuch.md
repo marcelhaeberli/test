@@ -23,9 +23,9 @@ Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen f
 
 Die I14Y Interoperabilitätsplattform verwendet den Standard DCAT-AP.
 
-![alt text]([http://url/to/img.png](https://user-images.githubusercontent.com/115873530/196398473-2868b18b-c0a2-47d7-8927-f0c3104e59f8.PNG))
-
 ## Publikationsprozess
+
+<img width="551" alt="Übersicht" src="https://user-images.githubusercontent.com/115873530/196399836-3fd80e95-3ce8-4030-a88b-e2ce99c71a9f.PNG">
 
 In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren. Folgende Punkte müssen Sie dabei beachten:
 
