@@ -1,14 +1,27 @@
 # 2022-10-Handbuch
 
+#### Table of contents
+
+1. [About](#About)
+2. [Publikationsprozess](#Publikationsprozess)
+    - [Für Erst-Publizierende](#Für-Erst-Publizierende)
+    - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
+3. [DCAT-AP-CH](#DCAT-AP-CH)
+    - [Für Erst-Publizierende](#Für-Erst-Publizierende)
+    - [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
+
+### Für Erst-Publizierende
+
+### Publikationsprozess verstehen
+
+### Publikationsvariante auswählen
+
+## DCAT-AP-CH
+### DCAT als universelles Vokabular
+
+### Klassen
+
 ## About
-
-Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open Government Data publizieren können, müssen Sie sicherstellen, dass die Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
-
-Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als Erst-Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
-
-[Für Erst-Publizierende](#Für-Erst-Publizierende)
-
-### Übersicht
 
 Die I14Y Interoperabilitätsplattform ist ein zentrales Verzeichnis, das die Metadaten der dokumentierten Datensätze öffentlich zugänglich macht.
 Metadaten sind wichtig, um den Kontext der Daten zu verstehen. Beschreibung, Struktur, Qualität, Standard und Verwendung der Daten sind zentral abgelegt. Angesichts der immer grösseren Datenmengen müssen sich öffentliche Verwaltungen und Unternehmen anpassen und neue Instrumente verwenden, um den digitalen Wandel voranzutreiben.
@@ -22,27 +35,31 @@ Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen f
 * Fachglossar
 
 Die I14Y Interoperabilitätsplattform verwendet den Standard DCAT-AP.
+Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open Government Data publizieren können, müssen Sie sicherstellen, dass die Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
+
+Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als Erst-Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
+
+* [Für Erst-Publizierende](#Für-Erst-Publizierende)
 
 ## Publikationsprozess
 
-<img width="551" alt="Übersicht" src="https://user-images.githubusercontent.com/115873530/196399836-3fd80e95-3ce8-4030-a88b-e2ce99c71a9f.PNG">
-
 In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren. Folgende Punkte müssen Sie dabei beachten:
+
+<img width="551" alt="Übersicht" src="https://user-images.githubusercontent.com/115873530/196399836-3fd80e95-3ce8-4030-a88b-e2ce99c71a9f.PNG">
 
 Ï14Y ist ein Metadatenkatalog. Hier wird auf publizierte Open Government Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert. Somit steigert sich ihre Sichtbarkeit.
 
-Die Geschäftsstelle OGD übernimmt das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «OGD-Richtlinien».
+Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «OGD-Richtlinien».
 
-Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-Ablauf in der «Abnahmeumgebung» von opendata.swiss durchgeführt. Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit, ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen und allfällige Änderungen vorzunehmen. Ab der zweiten Publikation können Datenpublizierende immer wieder neue Daten selbstständig publizieren. Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.
+Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-Ablauf in der «Abnahmeumgebung» von I14Y durchgeführt. Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit, ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen und allfällige Änderungen vorzunehmen. Ab der zweiten Publikation können Datenpublizierende immer wieder neue Daten selbstständig publizieren. Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.
 
-Das User-Management wird zentral von eIAM sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen sind uns daher immer zu melden.
+Das User-Management wird zentral von eIAM sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen werden automatisch darin erfasst.
 
-Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss die Geschäftsstelle OGD die neue Organisation und Benutzer/innen auf opendata.swiss registrieren. Erst danach kann der Publikationsprozess starten.
+Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Publikationsprozess starten.
 
-Wenn Sie bereits als Nutzerinnen oder Nutzer auf opendata.swiss registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
+Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
 
-Für Erst-Publizierende
-Benutzer/innen erfassen und verwalten
+* Für Erst-Publizierende
 
 Profil verwalten
 
