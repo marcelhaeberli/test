@@ -2,11 +2,45 @@
 
 ## About
 
+Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open Government Data publizieren können, müssen Sie sicherstellen, dass die Anforderungen für eine Publikation der OGD erfüllt sind. Die OGD-Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
+
+Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als Erst-Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
+
+[Für Erst-Publizierende](#Für-Erst-Publizierende)
+
 ### Übersicht
 
 ## Publikationsprozess
 
+### Für Erst-Publizierende
+
+### Publikationsprozess verstehen
+
+### Publikationsvariante auswählen
+
 ## DCAT-AP-CH
+
+### DCAT als universelles Vokabular
+
+### Klassen
+
+| Klassenname | Bemerkung | URI und Referenz | 
+|-------|------|---------------------------------------------------------------------|
+| Katalog | Ein Katalog oder Repository, in dem die beschriebenen Datensätze oder Datendienste gespeichert sind. | [Katalog](#Katalog) |
+| support | Double | Party strength in fraction of 1  (e.g. 0.2 = 20%) |
+| municipality | Numeric | BFS ID of municipality in question |
+| canton | Numeric | Cantonal abbreviation (two letters) |
+| party | Numeric | Party or party grouping, referencing ID in `output/parties.csv` |
+
+#### Katalog
+
+#### Dataset
+
+#### Dataservice
+
+#### Distribution
+
+#### Public Service
 
 ## FAQ
 
