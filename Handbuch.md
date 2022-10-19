@@ -42,7 +42,7 @@ Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen f
 
 Die I14Y Interoperabilitätsplattform verwendet den Standard [DCAT-AP-CH](#DCAT-AP-CH)
 
-Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als [Für Erst-Publizierende](#Für-Erst-Publizierende)e erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
+Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als [Für Erst-Publizierende](#Für-Erst-Publizierende) erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
 
 ### Publikationsrichtlinien 
 
@@ -169,7 +169,18 @@ TBD:
 
 ### DCAT als universelles Vokabular
 
+Das in diesem Dokument spezifizierte Anwendungsprofil basiert auf der Spezifikation des Data Catalog Vocabulary (DCAT), das unter der Verantwortung des BFS entwickelt wurde. DCAT ist ein RDF-Vokabular, das die Interoperabilität zwischen im Web veröffentlichten Datenkatalogen erleichtern soll. Zusätzliche Klassen und Eigenschaften aus anderen bekannten Vokabularen werden bei Bedarf wiederverwendet.
+
+Das DCAT-Vokabular besteht aus Klassen und Eigenschaften.
+
+* Klassen sind Dinge im Internet: Nicht alle von ihnen haben URIs, aber es wird empfohlen, einen URI für sie bereitzustellen. Sie sind komplexe Dinge wie eine Person, eine Organisation, ein Datensatz, eine Website oder eine herunterladbare Datendatei.
+* Klassen haben Eigenschaften: Die Eigenschaften sind die Attribute, die diese Dinge beschreiben. Einige Eigenschaften kommen in mehr als einer Klasse vor, z. B. ist ein Titel ein allgemeines Attribut. Andere Eigenschaften sind sehr speziell, wie z. B. ein Dateiformat, das nur für eine Datendatei sinnvoll ist.
+* Eigenschaften können einfach oder komplex sein: Einige Eigenschaften sind Klassen. Zum Beispiel kann eine Organisation eine Website haben. Oder ein Datensatz kann einen Datenverlag haben. Im Allgemeinen kann man eine Klasse an ihrer Schreibweise erkennen: Ein Eigenschaftsname beginnt mit einem Kleinbuchstaben wie dcat:dataset , während eine Klasse mit einem Großbuchstaben wie dcat:Dataset beginnt.
+Klassen und Eigenschaften werden verwendet, um die Metadaten strukturiert bereitzustellen.
+
 ### Klassen
+
+Sowohl das Schweizerische Anwendungsprofil ("DCAT-AP CH") als auch das Europäische Anwendungsprofil ("DCAT-AP") sind um die folgenden 4 Hauptklassen herum aufgebaut:
 
 | Klassenname | Bemerkung | URI und Referenz | 
 |-------|------|---------------------------------------------------------------------|
@@ -178,10 +189,17 @@ TBD:
 | Distribution | A physical embodiment of the Dataset in a particular format. | [Distribution](#Distribution) |
 | Data Service | Eine Sammlung von Vorgängen, die den Zugriff auf einen oder mehrere Datensätze oder Datenverarbeitungsfunktionen ermöglicht. | [Data Service](#Data-Service) |
 
+The latest version of DCAT can be found [here](https://www.w3.org/TR/vocab-dcat-3/)
+
+Im Kontext von I14Y wurde eine weitere Datenklasse hinzugefügt:
+
 | Klassenname | Bemerkung | URI und Referenz | 
 |-------|------|---------------------------------------------------------------------|
 | Public Service | TBD | [Public Service](#Public-Service) |
 
+<img width="953" alt="DCAT-Klassen" src="https://user-images.githubusercontent.com/115873530/196658047-910b1936-c023-4d50-bebe-94310c2ae687.PNG">
+
+The la
 
 #### Katalog
 
