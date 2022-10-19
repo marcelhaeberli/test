@@ -66,19 +66,19 @@ In diesem Kapitel erklären wir Ihnen, wie Sie Metadaten publizieren im Metadate
 
 5. Sie haben die Möglichkeit, im Rahmen von Releases ihre Ressourcen und Metadaten zu aktualisieren, falls neue Daten oder Änderungen vorliegen.
 
-* Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «Richtlinien».
+Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «Richtlinien».
 
 > **Für Erst-Publizierende**
 
-[Für Erst-Publizierende](#Für-Erst-Publizierende) begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
+> > [Für Erst-Publizierende](#Für-Erst-Publizierende) begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
 
 > **Für registrierte Nutzerinnen und Nutzer**
 
-Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
+> > Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
 
-* [Publikationsprozess verstehen](#Publikationsprozess-verstehen) verstehen
+> > * [Publikationsprozess verstehen](#Publikationsprozess-verstehen) verstehen
 
-* [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen
+> > * [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen
 
 ### Für Erst-Publizierende
 
