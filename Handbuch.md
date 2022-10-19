@@ -7,7 +7,7 @@
     * [Für Erst-Publizierende](#Für-Erst-Publizierende)
     * [Publikationsprozess verstehen](#Publikationsprozess-verstehen)
     * [Publikationsvariante auswählen](#Publikationsvariante-auswählen)
-3. [Pflegen](#Pflegen)
+3. [Aktualisierung der Daten](#Aktualisierung-der-Daten)
     * [Daten Updaten](#Daten-Updaten)
     * [Auskunft zu Daten geben](#Auskunft-zu-Daten-geben)
     * [Support und Feedback](#Support-und-Feedback)
@@ -68,11 +68,11 @@ In diesem Kapitel erklären wir Ihnen, wie Sie Metadaten publizieren im Metadate
 
 * Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «Richtlinien».
 
-**Für Erst-Publizierende**
+> **Für Erst-Publizierende**
 
 [Für Erst-Publizierende](#Für-Erst-Publizierende) begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
 
-**Für registrierte Nutzerinnen und Nutzer**
+> **Für registrierte Nutzerinnen und Nutzer**
 
 Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
 
@@ -114,7 +114,7 @@ Gemeinsam mit der Geschäftsstelle I14Y identifizieren Sie, welche Publikationsv
 
 **2. Schritt: Metadaten auf I14Y erfassen**
 
-Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert, um diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten Daten wiederverwendet werden können. Dieser Schritt wird je nach gewählter Methode unterschiedlich durchgeführt. Wenn Sie Ihren Datenkatalog als XML oder via Harvester importieren, müssen Ihre Datasets als XML-Datei im Format DCAT-AP-CH entweder direkt hochgeladen (XML Import) oder via URL (Harvester) an uns übergeben werden. Beim manuellen Erfassen sind die Felder im Backend von opendata.swiss direkt via Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel Publikationsvariante auswählen.
+Die Metadaten zu Ihren Daten können entweder manuell erfasst oder importiert werden auf I14Y, um diese den Nutzenden zur Verfügung zu stellen, so dass die publizierten Daten wiederverwendet werden können. Dieser Schritt wird je nach gewählter Methode unterschiedlich durchgeführt. Wenn Sie Ihren Datenkatalog als XML oder via Harvester importieren, müssen Ihre Datasets als XML-Datei im Format DCAT-AP-CH entweder direkt hochgeladen (XML Import) oder via URL an uns übergeben werden. Beim manuellen Erfassen sind die Felder im Admin-Bereich von I14Y direkt via Webformular auszufüllen. Nähere Informationen dazu finden Sie im Kapitel [Klassen](#Klassen) und [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen.
 
 **3. Schritt: Prüfung der Daten**
 
@@ -122,7 +122,7 @@ Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualit
 
 **4. Schritt: Freigabe und Veröffentlichung**
 
-Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf opendata.swiss am gemeinsam definierten Go-Live Datum veröffentlicht. Dies gilt grundsätzlich nur bei der Erstpublikation. Bei wiederholten Publikationen können Sie die Veröffentlichung selbst vornehmen bzw. für ein spezifisches Datum terminieren. Benötigen Sie Unterstützung bei einer wiederholten Publikation, können Sie uns selbstverständlich jederzeit kontaktieren.
+Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf I14Y am gemeinsam definierten Go-Live Datum veröffentlicht. Dies gilt grundsätzlich nur bei der Erstpublikation. Bei wiederholten Publikationen können Sie die Veröffentlichung selbst vornehmen bzw. für ein spezifisches Datum terminieren. Benötigen Sie Unterstützung bei einer wiederholten Publikation, können Sie uns selbstverständlich jederzeit kontaktieren.
 
 ### Publikationsvariante auswählen
 
@@ -135,11 +135,12 @@ Um eine geeignete Publikationsvariante auszuwählen, kommt es auf die Art der Da
     - Metadaten als XML-Datei importieren
 
 **Grosse Anzahl Datasets, häufige Aktualisierung:**
-    - Metadaten mit Harvester automatisch hochladen
+    - Metadaten mit ??? automatisch hochladen
+    
 **Geodaten**
     - Geodaten sind ein Spezialfall. Um Geodaten publizieren zu können, müssen die Metadaten im Schweizer Geometadaten-Katalog geocat.ch erfasst sein. Metadaten via geocat.ch publizieren
 
-## Pflegen
+## Aktualisierung der Daten
 
 ### Daten-Updaten
 
