@@ -26,52 +26,55 @@
 
 Die I14Y Interoperabilitätsplattform ist ein zentrales Verzeichnis, das die Metadaten der dokumentierten Datensätze öffentlich zugänglich macht.
 Metadaten sind wichtig, um den Kontext der Daten zu verstehen. Beschreibung, Struktur, Qualität, Standard und Verwendung der Daten sind zentral abgelegt. Angesichts der immer grösseren Datenmengen müssen sich öffentliche Verwaltungen und Unternehmen anpassen und neue Instrumente verwenden, um den digitalen Wandel voranzutreiben.
-Über die I14Y Interoperabilitätsplattform können alle Nutzenden auf die verfügbaren Datenquellen zugreifen (frei oder mit entsprechendem Zugriffsrecht). Sie erleichtert es zudem, bereits erfasste Informationen zu erkennen und diese mehrfach zu verwenden (Once-Only-Prinzip). Die Schaffung neuer Dienste sowie die Durchführung neuer Datenanalysen werden somit unterstützt.
+Über die I14Y Interoperabilitätsplattform können alle Nutzenden auf die verfügbaren Datenquellen zugreifen (frei oder mit entsprechendem Zugriffsrecht, wobei der Zugriff via eIAM und KeyCloak geregelt wird). Sie erleichtert es zudem, bereits erfasste Informationen zu erkennen und diese mehrfach zu verwenden (Once-Only-Prinzip). Die Schaffung neuer Dienste sowie die Durchführung neuer Datenanalysen werden somit unterstützt.
 
 Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen folgende Funktionen:
 
+<img width="547" alt="Übersicht_Public" src="https://user-images.githubusercontent.com/115873530/196630701-e9c57cc1-29bc-4733-8698-f326c7648434.PNG">
+
 * Suchmaschine
-* Metadatenregister
+* Metadatenregister (d.h. Katalog von Dataset, Data Service, Public Service, Nomenclature und Concept sowie des Geocat-Katalogs)
 * Beschreibung Daten anhand von Metadaten
 * Fachglossar
 
-Die I14Y Interoperabilitätsplattform verwendet den Standard DCAT-AP.
+Die I14Y Interoperabilitätsplattform verwendet den Standard [DCAT-AP-CH](#DCAT-AP-CH)
 
-Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als Erst-Publizierende erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
-
-* [Für Erst-Publizierende](#Für-Erst-Publizierende)
+Sie haben noch keine Daten auf [I14Y](https://www.i14y.admin.ch/de/home) veröffentlicht? Als [Für Erst-Publizierende](#Für-Erst-Publizierende)e erklären wir Ihnen das Wichtigste rund um den Prozess und unterstützen Sie bei der Identifikation von geeigneten Daten.
 
 ### Publikationsrichtlinien 
 
-Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Open Government Data publizieren können, müssen Sie sicherstellen, dass die Anforderungen für eine Publikation erfüllt sind. Die Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
+Am Anfang steht eine gute Vorbereitung. Bevor Sie Daten als Metadaten publizieren können, müssen Sie sicherstellen, dass die Anforderungen für eine Publikation erfüllt sind. Die Richtlinien zeigen Ihnen auf welche diese Anforderungen sind.
 
-TBD: Welche Richtlinien gibt es?
+TBD: Definition der Richtlinien.
 
 ## Publikationsprozess
 
-In diesem Kapitel erklären wir Ihnen, wie Sie Open Government Data publizieren. Folgende Punkte müssen Sie dabei beachten:
+In diesem Kapitel erklären wir Ihnen, wie Sie Metadaten publizieren im Metadatenkatalog von I14Y. Hier wird auf Open Government Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert, wodurch sich ihre Sichtbarkeit steigert. Folgende Punkte müssen Sie dabei beachten:
 
-<img width="702" alt="Übersicht_Public" src="https://user-images.githubusercontent.com/115873530/196473444-ff198937-bde8-495f-9b11-7378f9794f41.PNG">
+<img width="1116" alt="Übersicht_Publicication_Process" src="https://user-images.githubusercontent.com/115873530/196644821-a1dfa74f-1767-457c-ba1d-20435b8883cb.PNG">
 
-* Ï14Y ist ein Metadatenkatalog. Hier wird auf Open Government Data in standardisierter, leicht verständlicher und wiederverwendbarer Form referenziert. Somit steigert sich ihre Sichtbarkeit.
+1. Um Metadaten publizieren zu können, benütigen Sie (d.h. der Data Producer) Zugriff auf I14Y Admin. Das User-Management wird zentral von eIAM sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen werden gemäss der Anleitung im Abschnitt [Für Erst-Publizierende](#Für-Erst-Publizierende) erfasst.
 
-* Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «OGD-Richtlinien».
+2. Sobald Sie Zugriff auf I14Y Admin haben, können Sie den gewünschten Metadatensatz im I14Y Admin erstellen.
+   * Die Daten sollen als einfach nutzbare, maschinenlesbare Ressourcen aufbereitet sein, wodurch sie diese Daten rasch als Metadaten erfassen bzw. als Schnittstellen zum Abfragen im Datenkatalog bereitstellen können.
+   * Bei der Erstellung wird für alle Publikationsvarianten ein Test-Ablauf in der «Abnahmeumgebung» von I14Y durchgeführt. Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit, ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen und allfällige Änderungen vorzunehmen. 
+   * Es stehen verschiedene Datenklassen zur Verfügung, welche im Detail beschrieben werden im Abschnitt [Publikationsvariante auswählen](#Publikationsvariante-auswählen).
 
-* Bei der ersten Publikation wird für alle Publikationsvarianten ein Test-Ablauf in der «Abnahmeumgebung» von I14Y durchgeführt. Dies gibt datenpublizierenden Organisationen oder Personen die Möglichkeit, ihre Datasets und sämtliche weitere Informationen ausgiebig zu prüfen und allfällige Änderungen vorzunehmen. Ab der zweiten Publikation können Datenpublizierende immer wieder neue Daten selbstständig publizieren. Die Abnahmeumgebung steht jederzeit für Test-Publikationen zur Verfügung.
+3. Sobald Sie den Metadatensatz erstellt haben, werden die Daten zur Qualitätssicherung durch den Swiss Data Steward (SDS) und den local Data Steward (LDS) geprüft.
 
-* Das User-Management wird zentral von eIAM sichergestellt. Neue Benutzerinnen und Benutzer oder Anpassungen an den bestehenden Berechtigungen werden darin erfasst.
+4. Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf I14Y am gemeinsam definierten Go-Live Datum veröffentlicht. 
 
-Erst-Publizierende begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
+5. Sie haben die Möglichkeit, im Rahmen von Releases ihre Ressourcen und Metadaten zu aktualisieren, falls neue Daten oder Änderungen vorliegen.
 
-Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
+* Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «Richtlinien».
 
 **Für Erst-Publizierende**
 
-* Login auf [I14Y](https://www.i14y.admin.ch/de/home) 
-
-* Profil auf [I14Y](https://www.i14y.admin.ch/de/home) verwalten
+[Für Erst-Publizierende](#Für-Erst-Publizierende) begleiten wir Schritt für Schritt durch den Prozess. Im ersten Schritt muss sich die neue Organisation und Benutzer/innen auf eIAM registrieren. Erst danach kann der Erstellungs- und Publikationsprozess starten.
 
 **Für registrierte Nutzerinnen und Nutzer**
+
+Wenn Sie bereits als Nutzerinnen oder Nutzer auf eIAM registriert sind, können Sie direkt zu den Inhalten für registrierte Nutzerinnen und Nutzer springen. Dort können Sie direkt die geeignete Publikationsvariante für Ihre Daten auswählen.
 
 * [Publikationsprozess verstehen](#Publikationsprozess-verstehen) verstehen
 
@@ -83,11 +86,15 @@ Es freut uns, dass Sie Ihre Daten auf I14Y publizieren wollen! Jeder Eintrag auf
 
 * TBD: Anleitung [eIAM](https://www.eiam.admin.ch/index.php?c=f!chlfaq!pub&l=de) 
 
+* Login auf [I14Y](https://www.i14y.admin.ch/de/home) 
+
+* Profil auf [I14Y](https://www.i14y.admin.ch/de/home) verwalten
+
 ### Publikationsprozess verstehen
 
-Bevor Sie etwas publizieren können müssen Sie sich auf eIAM registriert haben. Nur mit diesem Login gelangen Sie zum Input-Bereich auf I14Y, auf welchem Sie Metadatden erfassen und publizieren können.
+Bevor Sie etwas publizieren können müssen Sie sich auf eIAM registriert haben. Nur mit diesem Login gelangen Sie zum Admin-Bereich auf I14Y, auf welchem Sie Metadatden erfassen und publizieren können.
 
-Der Publikationsprozess besteht aus 4 Schritten. Wichtig zu wissen: Wenn Sie zum ersten Mal Daten publizieren, veröffentlichen Sie diese immer zuerst auf einer nicht-öffentlichen Umgebung, die für Test-Publikationen gedacht ist. Wir sprechen auch von «Abnahmeumgebung». Erst nach der finalen Freigabe werden die Datasets öffentlich auf opendata.swiss publiziert, auf der sogenannten «Produktionsumgebung». Wenn Sie Daten bereits zum wiederholten Male publizieren, können Sie dies direkt in der Produktionsumgebung tun.
+Der Publikationsprozess selber besteht aus 4 Schritten. Wichtig zu wissen: Wenn Sie zum ersten Mal Daten publizieren, veröffentlichen Sie diese immer zuerst auf einer nicht-öffentlichen Umgebung, die für Test-Publikationen gedacht ist. Wir sprechen auch von «Abnahmeumgebung». Erst nach der finalen Freigabe werden die Datasets öffentlich auf I14Y publiziert, auf der sogenannten «Produktionsumgebung». Wenn Sie Daten bereits zum wiederholten Male publizieren, können Sie dies direkt in der Produktionsumgebung tun.
 
 #### Daten publizieren – So funktioniert’s:
 
@@ -111,7 +118,7 @@ Die Metadaten zu Ihren Daten werden auf opendata.swiss importiert, um diese den 
 
 **3. Schritt: Prüfung der Daten**
 
-Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualitätssicherung. Bei der Erstpublikation stellen wir gemeinsam sicher, dass alle Daten, Metadaten und Beschreibungen in der Abnahmeumgebung korrekt erfasst und dargestellt werden. Kontaktieren Sie uns, um die Prüfung der Daten zu planen. Durchschnittlich benötigen wir 5 Werktage, um die Daten und Metadaten zu prüfen.
+Nachdem Sie alle erforderlichen Metadaten erfasst haben, ist es Zeit für Qualitätssicherung. Bei der Erstpublikation stellen wir gemeinsam sicher, dass alle Daten, Metadaten und Beschreibungen in der Abnahmeumgebung korrekt erfasst und dargestellt werden. Kontaktieren Sie uns, um die Prüfung der Daten zu planen. Durchschnittlich benötigen wir X Werktage, um die Daten und Metadaten zu prüfen.
 
 **4. Schritt: Freigabe und Veröffentlichung**
 
