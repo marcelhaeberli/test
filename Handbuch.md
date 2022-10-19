@@ -169,7 +169,7 @@ TBD:
 
 ### DCAT als universelles Vokabular
 
-Das in diesem Dokument spezifizierte Anwendungsprofil basiert auf der Spezifikation des Data Catalog Vocabulary (DCAT), das unter der Verantwortung des BFS entwickelt wurde. DCAT ist ein RDF-Vokabular, das die Interoperabilität zwischen im Web veröffentlichten Datenkatalogen erleichtern soll. Zusätzliche Klassen und Eigenschaften aus anderen bekannten Vokabularen werden bei Bedarf wiederverwendet.
+Das in diesem Dokument spezifizierte Anwendungsprofil basiert auf der Spezifikation des Data Catalog Vocabulary (DCAT), das unter der Verantwortung des BFS entwickelt wurde. DCAT ist ein RDF-Vokabular, das die Interoperabilität zwischen im Web veröffentlichten Datenkatalogen erleichtern soll. Zusätzliche Klassen und Eigenschaften aus anderen bekannten Vokabularen werden bei Bedarf wiederverwendet. Das DCAT-Anwendungsprofil für Datenportale in Europa (DCAT-AP) ist eine Spezifikation auf der Grundlage des [W3C-Vokabulars für Datenkataloge (DCAT)](https://www.w3.org/TR/vocab-dcat-3/) zur Beschreibung von Datensätzen des öffentlichen Sektors in Europa
 
 Das DCAT-Vokabular besteht aus Klassen und Eigenschaften.
 
@@ -191,7 +191,7 @@ Sowohl das Schweizerische Anwendungsprofil ("DCAT-AP CH") als auch das Europäis
 
 The latest version of DCAT can be found [here](https://www.w3.org/TR/vocab-dcat-3/)
 
-Im Kontext von I14Y wurde eine weitere Datenklasse hinzugefügt:
+Im Kontext von I14Y wurde der Datenkatalog mit der Klasse Public Service, basierend auf [CPSV-AP](https://semiceu.github.io/CPSV-AP/releases/3.0.0/) erweitert.
 
 | Klassenname | Bemerkung | URI und Referenz | 
 |-------|------|---------------------------------------------------------------------|
@@ -199,25 +199,64 @@ Im Kontext von I14Y wurde eine weitere Datenklasse hinzugefügt:
 
 <img width="953" alt="DCAT-Klassen" src="https://user-images.githubusercontent.com/115873530/196658047-910b1936-c023-4d50-bebe-94310c2ae687.PNG">
 
-The la
-
 #### Katalog
+
+Ein Katalog oder Repository, das die beschriebenen Datensätze oder Datendienste beherbergt.
+
+DCAT-AP CH erlaubt Kataloge, die nur Datensätze enthalten, aber auch Kataloge, die nur Datendienste enthalten, aber normalerweise wird es eine Mischung aus beidem sein.
 
 #### Dataset
 
+Ein Datensatz ist eine Sammlung von Daten, die von einer einzigen Quelle veröffentlicht oder kuratiert werden und durch eine gemeinsame Idee oder ein gemeinsames Konzept verbunden sind. Im Gegensatz zu einem Datendienst wird von einem Datensatz erwartet, dass er eine Sammlung von Daten ist, die in einem oder mehreren Formaten als Distributionen zum Zugriff oder Download zur Verfügung stehen. Verteilungen, die zum selben Dataset gehören, sollten sich in Bezug auf die Idee der Daten, die sie repräsentieren, nicht unterscheiden. Sie können sich in Bezug auf die physische Darstellung der Daten wie Format oder Auflösung unterscheiden. Oder sie können die Daten des Datensatzes in Portionen vergleichbarer Größe aufteilen, z. B. Daten nach Zeiträumen oder Orten.
+
 #### Dataservice
+
+Ein DataService ist eine Sammlung von Operationen, die den Zugang zu einem oder mehreren Datasets oder Datenverarbeitungsfunktionen ermöglicht. Wenn ein dcat:DataService an einen oder mehrere bestimmte Datasets gebunden ist, werden diese durch die Eigenschaft dcat:servesDataset angezeigt.
 
 #### Distribution
 
+Ein Metadateneintrag dieser Klasse beschreibt eine Verteilung der Daten, die eine spezifische Darstellung eines Datensatzes ist. Ein Datensatz kann in mehreren Serialisierungen vorliegen, die sich auf verschiedene Weise unterscheiden können, z. B. in Bezug auf die natürliche Sprache, den Medientyp oder das Format, die schematische Organisation, die zeitliche und räumliche Auflösung, den Detaillierungsgrad oder die Profile (die eines oder alle der oben genannten Merkmale enthalten können).
+
+Die Verteilung kann alle Daten des Datensatzes oder nur einen Teil der Daten enthalten. Zum Beispiel: Sie kann alle Daten über die Bevölkerung in der Schweiz enthalten oder nur ein Jahr dieser Daten, zum Beispiel das Jahr 2018. Es kann auch die Daten in einem alternativen Datenformat enthalten, zum Beispiel eine grafische Darstellung der Daten für die Jahre 1990 bis 2010.
+
+DCAT-AP erlaubt die Darstellung verschiedener Beziehungen innerhalb eines Datasets oder zwischen Datasets: Die einfachste Beziehung ist die Aggregation verschiedener physikalischer Darstellungen von Daten ("Verteilungen") in einem Dataset. Ein mögliches solches Dataset wäre eine Zeitreihe, bei der jede Verteilung ein Jahr der Daten abdeckt und das Dataset sich über mehrere Jahre erstreckt.
+
+Eine Verteilung stellt eine allgemeine Verfügbarkeit eines Datensatzes dar. Sie enthält keine Informationen über die tatsächliche Zugriffsmethode auf die Daten, d. h. ob sie direkt heruntergeladen werden oder über eine Webseite. Die Verwendung der Eigenschaft dcat:downloadURL zeigt direkt herunterladbare Distributionen an.
+
 #### Public Service
+
+Ein öffentlicher Dienst ist eine obligatorische oder freiwillige Tätigkeit, die von oder im Namen einer öffentlichen Einrichtung erbracht wird oder erbracht werden kann, mit öffentlichen Mitteln finanziert wird und sich aus der öffentlichen Ordnung ergibt.
+
+Diese Klasse repräsentiert den öffentlichen Dienst selbst, wie er in einem Katalog für öffentliche Dienstleistungen beschrieben wird. Dienstleistungen können zugunsten einer Einzelperson, eines Unternehmens oder einer anderen öffentlichen Stelle oder einer Gruppe von diesen erbracht werden. Eine Dienstleistung besteht unabhängig davon, ob sie in Anspruch genommen wird oder nicht, und der Begriff "Nutzen" kann im Sinne der Erfüllung einer Verpflichtung verwendet werden. Gemäß der Definition in der überarbeiteten Fassung des Europäischen Interoperabilitätsrahmens umfasst ein europäischer öffentlicher Dienst jede Dienstleistung, die von öffentlichen Verwaltungen in Europa oder von anderen Organisationen in deren Namen für Unternehmen, Bürger oder andere öffentliche Verwaltungen erbracht wird.
 
 ## FAQ
 
+[FAQ](https://www.i14y.admin.ch/de/faq)
+
 ## Glossar
+
+TBD:
 
 ## Über das Handbuch
 
+Das Handbuch von I14Y bietet Ihnen Anleitungen und Richtlinien für die Publikation und Nutzung von Daten auf I14Y. Ziel ist es, datenpublizierende Personen und Organisationen bei der Publikation von Open Government Data zu unterstützen. Es wird von I14Y beim Bundesamt für Statistik betrieben.
+
+Über I14Y
+opendata.swiss ist das zentrale Portal für offene, sprich frei verfügbare Daten der Schweizer Verwaltungen. Man spricht in diesem Zusammenhang von Open Government Data (OGD). Das Portal wird im Rahmen der «Open Government Data»-Strategie der Schweiz für die Jahre 2019 bis 2023 betrieben und weiterentwickelt.
+
+Unterstützen Sie uns
+Dieses Handbuch lebt vom Feedback seiner Nutzerinnen und Nutzern, damit es sich kontinuierlich verbessert. Haben Sie Anregungen zu Inhalten oder Erfahrungen, die Sie gerne mit uns teilen möchten? Schreiben Sie uns.
+
 ### Kontakt
+
+TBD:
 
 ### Rechtliche Hinweise
 
+#### Haftung
+
+#### Webanalyse
+
+#### Urheberrecht
+
+#### Quellcode
