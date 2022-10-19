@@ -33,7 +33,7 @@ Metadaten sind wichtig, um den Kontext der Daten zu verstehen. Beschreibung, Str
 
 Der Metadatenkatalog der I14Y Interoperabilitätsplattform hat im Wesentlichen folgende Funktionen:
 
-<img width="547" alt="Übersicht_Public" src="https://user-images.githubusercontent.com/115873530/196630701-e9c57cc1-29bc-4733-8698-f326c7648434.PNG">
+<img width="1097" alt="Übersicht_Public" src="https://user-images.githubusercontent.com/115873530/196680090-0278b134-f66f-4cd6-9914-d98dc320f430.PNG">
 
 * Suchmaschine
 * Metadatenregister (d.h. Katalog von Dataset, Data Service, Public Service, Nomenclature und Concept sowie des Geocat-Katalogs)
