@@ -14,9 +14,12 @@
 4. [DCAT-AP-CH](#DCAT-AP-CH)
     * [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
     * [Klassen](#Klassen)
+      * [Katalog](#Katalog)
+      * [Dataset](#Dataset)
+      * [Dataservice](#Dataservice)
+      * [Distribution](#Distribution)
+      * [Public Service](#Public-Service)
 5. [FAQ](#FAQ)
-    * [DCAT als universelles Vokabular](#DCAT-als-universelles-Vokabular)
-    * [Klassen](#Klassen)
 6. [Glossar](#Glossar)
 7. [Über das Handbuch](#Über-das-Handbuch)
     * [Kontakt](#Kontakt)
@@ -64,7 +67,7 @@ In diesem Kapitel erklären wir Ihnen, wie Sie Metadaten publizieren im Metadate
 
 4. Nachdem Sie Ihr finales Einverständnis gegeben haben, werden die Daten durch uns auf I14Y am gemeinsam definierten Go-Live Datum veröffentlicht. 
 
-5. Sie haben die Möglichkeit, im Rahmen von Releases ihre Ressourcen und Metadaten zu aktualisieren, falls neue Daten oder Änderungen vorliegen.
+5. Sie haben die Möglichkeit, im Rahmen von Releases ihre Ressourcen und Metadaten zu aktualisieren, falls neue Daten oder Änderungen vorliegen. Das Vorgehen dazu wird erläutert im Abschnitt 
 
 Der Swiss Data Steward (SDS) und der Local Data Steward (LDS) übernehmen das Controlling des gesamten Katalogs. Es ist allerdings an den publizierenden Organisationen oder Personen (Data Producer) sicherzustellen, dass die rechtlichen, technischen und organisatorischen Anforderungen eingehalten werden, siehe «Richtlinien».
 
@@ -98,15 +101,17 @@ Der Publikationsprozess selber besteht aus 4 Schritten. Wichtig zu wissen: Wenn 
 
 #### Daten publizieren – So funktioniert’s:
 
-**1. Schritt: [Publikationsvariante auswählen](#Publikationsvariante-auswählen) auswählen**
+**1. Schritt: Publikationsvarianten auswählen**
 
-Es gibt vier verschiedene Publikationsvarianten, die Ihnen zur Verfügung stehen:
+Es gibt verschiedene [Publikationsvariante auswählen](#Publikationsvariante-auswählen), die Ihnen zur Verfügung stehen:
 
-* Dataset manuell via Webformular erfassen
+* [Dataset](#Dataset) manuell via Webformular erfassen
 
-* Data Service via Webformular erfassen
+* [Dataservice](#Dataservice) via Webformular erfassen
 
-* Publice Service via Webformular erfassen
+* [Distribution](#Distribution) manuell via Webformular erfassen
+
+* [Public Service](#Public-Service) via Webformular erfassen
 
 * Geodaten via geocat.ch erfassen (Wichtig: Alle Geodaten müssen nach dieser Methode publiziert werden)
 
@@ -142,11 +147,23 @@ Um eine geeignete Publikationsvariante auszuwählen, kommt es auf die Art der Da
 
 ## Aktualisierung der Daten
 
+Nachdem Sie Daten auf I14Y publiziert haben, bleiben Sie weiterhin für Ihre Daten verantwortlich. Das umfasst genau zwei Aufgaben: Zum einen müssen Sie Ihre Daten regelmässig updaten. Zum anderen müssen Sie Anfragen von Nutzerinnen und Nutzern zu Ihren Daten beantworten.
+
 ### Daten-Updaten
+
+Nach der Veröffentlichung kann es immer mal wieder zu Änderungen und Aktualisierungen Ihrer Metadaten kommen, beispielsweise durch die Publikation von neuen Ressourcen oder die Änderung der URL. Solche Änderungen der Metadaten müssen Sie im Admin-Bereich der Produktionsumgebung von I14Y der nachführen. Änderungen an Ihren physischen Daten müssen Sie uns nicht melden.
+
+Wenn Sie hingegen Ihre Metadaten harvesten lassen, geschieht das Aktualisieren automatisch durch uns. Wir bitten Sie ausserdem regelmässig zu prüfen, ob Ihre Metadaten richtig bei uns ankommen. Gehen Sie dazu auf opendata.swiss und prüfen Sie die Seite Ihrer Organisation mitsamt Datasets.
 
 ### Auskunft zu Daten geben
 
+Für das Beantworten von Fragen zu Ihren Daten sind Sie selbst verantwortlich. In jedem Dataset sind unter dem Feld «Kontaktstellen» E-Mails der Kontaktpersonen Ihrer Organisation eingetragen. Halten Sie diese Einträge bitte aktuell, damit Sie kontaktiert werden können. Allfällige Anfragen zu Ihren Daten, die direkt an I14Y gestellt werden, leiten wir an Sie weiter.
+
 ### Support und Feedback
+
+Um die Support-Aktivitäten für Portal-Betreiber und datenpublizierende Organisationen möglichst effizient zu gestalten, wurden die wichtigsten Support-Prozesse festgelegt
+
+TBD:
 
 ## DCAT-AP-CH
 
@@ -164,6 +181,7 @@ Um eine geeignete Publikationsvariante auszuwählen, kommt es auf die Art der Da
 | Klassenname | Bemerkung | URI und Referenz | 
 |-------|------|---------------------------------------------------------------------|
 | Public Service | TBD | [Public Service](#Public-Service) |
+
 
 #### Katalog
 
