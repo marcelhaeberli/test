@@ -163,7 +163,7 @@ Für das Beantworten von Fragen zu Ihren Daten sind Sie selbst verantwortlich. I
 
 Um die Support-Aktivitäten für Portal-Betreiber und datenpublizierende Organisationen möglichst effizient zu gestalten, wurden die wichtigsten Support-Prozesse festgelegt
 
-TBD:
+TBD:Test
 
 ## DCAT-AP-CH
 
